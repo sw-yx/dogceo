@@ -1,0 +1,12 @@
+# example netlify.toml
+[build]
+  command = "#"
+  functions = "functions"
+  publish = "."
+
+# # Uncomment to use this redirect for Single Page Applications. 
+# # Not needed for static site generators.
+# [[redirects]]
+#  to = "/.netlify/functions/pics"
+#  from = "/pics"
+#  status = 200
